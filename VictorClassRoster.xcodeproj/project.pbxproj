@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B3D0C1219860337007189D6 /* CustomPersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D0C1119860337007189D6 /* CustomPersonCell.swift */; };
+		5B4B762D1985548A008BDB69 /* alex.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B76221985548A008BDB69 /* alex.png */; };
+		5B4B762E1985548A008BDB69 /* brad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B76231985548A008BDB69 /* brad.png */; };
+		5B4B762F1985548A008BDB69 /* collin.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B76241985548A008BDB69 /* collin.png */; };
+		5B4B76301985548A008BDB69 /* dan.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B76251985548A008BDB69 /* dan.png */; };
+		5B4B76311985548A008BDB69 /* jeff.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B76261985548A008BDB69 /* jeff.png */; };
+		5B4B76321985548A008BDB69 /* john.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B76271985548A008BDB69 /* john.png */; };
+		5B4B76331985548A008BDB69 /* kirby.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B76281985548A008BDB69 /* kirby.png */; };
+		5B4B76341985548A008BDB69 /* leo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B76291985548A008BDB69 /* leo.png */; };
+		5B4B76351985548A008BDB69 /* mike.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B762A1985548A008BDB69 /* mike.png */; };
+		5B4B76361985548A008BDB69 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B762B1985548A008BDB69 /* placeholder.png */; };
+		5B4B76371985548A008BDB69 /* victor.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B762C1985548A008BDB69 /* victor.png */; };
+		5B4B763B19857CEF008BDB69 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B763A19857CEF008BDB69 /* DetailViewController.swift */; };
+		5B4B763C19857CEF008BDB69 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B763A19857CEF008BDB69 /* DetailViewController.swift */; };
+		5B70950119848322001E0F94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70950019848322001E0F94 /* AppDelegate.swift */; };
+		5B70950319848322001E0F94 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70950219848322001E0F94 /* PeopleViewController.swift */; };
+		5B70950619848322001E0F94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B70950419848322001E0F94 /* Main.storyboard */; };
+		5B70950819848322001E0F94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B70950719848322001E0F94 /* Images.xcassets */; };
+		5B70951419848323001E0F94 /* VictorClassRosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70951319848323001E0F94 /* VictorClassRosterTests.swift */; };
+		5B709521198487A2001E0F94 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B709520198487A2001E0F94 /* Person.swift */; };
+		5B709522198487A2001E0F94 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B709520198487A2001E0F94 /* Person.swift */; };
+		5B709524198497B2001E0F94 /* peopleInClass.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B709523198497B2001E0F94 /* peopleInClass.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B70950E19848323001E0F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B7094F319848322001E0F94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B7094FA19848322001E0F94;
+			remoteInfo = VictorClassRoster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B3D0C1119860337007189D6 /* CustomPersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPersonCell.swift; sourceTree = "<group>"; };
+		5B4B76221985548A008BDB69 /* alex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alex.png; sourceTree = "<group>"; };
+		5B4B76231985548A008BDB69 /* brad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brad.png; sourceTree = "<group>"; };
+		5B4B76241985548A008BDB69 /* collin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = collin.png; sourceTree = "<group>"; };
+		5B4B76251985548A008BDB69 /* dan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dan.png; sourceTree = "<group>"; };
+		5B4B76261985548A008BDB69 /* jeff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jeff.png; sourceTree = "<group>"; };
+		5B4B76271985548A008BDB69 /* john.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = john.png; sourceTree = "<group>"; };
+		5B4B76281985548A008BDB69 /* kirby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kirby.png; sourceTree = "<group>"; };
+		5B4B76291985548A008BDB69 /* leo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leo.png; sourceTree = "<group>"; };
+		5B4B762A1985548A008BDB69 /* mike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mike.png; sourceTree = "<group>"; };
+		5B4B762B1985548A008BDB69 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		5B4B762C1985548A008BDB69 /* victor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = victor.png; sourceTree = "<group>"; };
+		5B4B763A19857CEF008BDB69 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5B7094FB19848322001E0F94 /* VictorClassRoster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VictorClassRoster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7094FF19848322001E0F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B70950019848322001E0F94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B70950219848322001E0F94 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		5B70950519848322001E0F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B70950719848322001E0F94 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B70950D19848323001E0F94 /* VictorClassRosterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VictorClassRosterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B70951219848323001E0F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B70951319848323001E0F94 /* VictorClassRosterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictorClassRosterTests.swift; sourceTree = "<group>"; };
+		5B709520198487A2001E0F94 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		5B709523198497B2001E0F94 /* peopleInClass.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = peopleInClass.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B7094F819848322001E0F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B70950A19848323001E0F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B4B76211985548A008BDB69 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5B4B76221985548A008BDB69 /* alex.png */,
+				5B4B76231985548A008BDB69 /* brad.png */,
+				5B4B76241985548A008BDB69 /* collin.png */,
+				5B4B76251985548A008BDB69 /* dan.png */,
+				5B4B76261985548A008BDB69 /* jeff.png */,
+				5B4B76271985548A008BDB69 /* john.png */,
+				5B4B76281985548A008BDB69 /* kirby.png */,
+				5B4B76291985548A008BDB69 /* leo.png */,
+				5B4B762A1985548A008BDB69 /* mike.png */,
+				5B4B762B1985548A008BDB69 /* placeholder.png */,
+				5B4B762C1985548A008BDB69 /* victor.png */,
+			);
+			name = images;
+			path = imageInPngs;
+			sourceTree = "<group>";
+		};
+		5B7094F219848322001E0F94 = {
+			isa = PBXGroup;
+			children = (
+				5B7094FD19848322001E0F94 /* VictorClassRoster */,
+				5B70951019848323001E0F94 /* VictorClassRosterTests */,
+				5B7094FC19848322001E0F94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B7094FC19848322001E0F94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B7094FB19848322001E0F94 /* VictorClassRoster.app */,
+				5B70950D19848323001E0F94 /* VictorClassRosterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B7094FD19848322001E0F94 /* VictorClassRoster */ = {
+			isa = PBXGroup;
+			children = (
+				5B70951F1984874C001E0F94 /* Controllers */,
+				5B70951E19848744001E0F94 /* Models */,
+				5B70951D1984873B001E0F94 /* Views */,
+				5B70950419848322001E0F94 /* Main.storyboard */,
+				5B70950719848322001E0F94 /* Images.xcassets */,
+				5B4B76211985548A008BDB69 /* images */,
+				5B7094FE19848322001E0F94 /* Supporting Files */,
+			);
+			path = VictorClassRoster;
+			sourceTree = "<group>";
+		};
+		5B7094FE19848322001E0F94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B7094FF19848322001E0F94 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B70951019848323001E0F94 /* VictorClassRosterTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B70951319848323001E0F94 /* VictorClassRosterTests.swift */,
+				5B70951119848323001E0F94 /* Supporting Files */,
+			);
+			path = VictorClassRosterTests;
+			sourceTree = "<group>";
+		};
+		5B70951119848323001E0F94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B70951219848323001E0F94 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B70951D1984873B001E0F94 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5B70951E19848744001E0F94 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5B709520198487A2001E0F94 /* Person.swift */,
+				5B709523198497B2001E0F94 /* peopleInClass.plist */,
+				5B3D0C1119860337007189D6 /* CustomPersonCell.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5B70951F1984874C001E0F94 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B70950019848322001E0F94 /* AppDelegate.swift */,
+				5B70950219848322001E0F94 /* PeopleViewController.swift */,
+				5B4B763A19857CEF008BDB69 /* DetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B7094FA19848322001E0F94 /* VictorClassRoster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B70951719848323001E0F94 /* Build configuration list for PBXNativeTarget "VictorClassRoster" */;
+			buildPhases = (
+				5B7094F719848322001E0F94 /* Sources */,
+				5B7094F819848322001E0F94 /* Frameworks */,
+				5B7094F919848322001E0F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VictorClassRoster;
+			productName = VictorClassRoster;
+			productReference = 5B7094FB19848322001E0F94 /* VictorClassRoster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B70950C19848323001E0F94 /* VictorClassRosterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B70951A19848323001E0F94 /* Build configuration list for PBXNativeTarget "VictorClassRosterTests" */;
+			buildPhases = (
+				5B70950919848323001E0F94 /* Sources */,
+				5B70950A19848323001E0F94 /* Frameworks */,
+				5B70950B19848323001E0F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B70950F19848323001E0F94 /* PBXTargetDependency */,
+			);
+			name = VictorClassRosterTests;
+			productName = VictorClassRosterTests;
+			productReference = 5B70950D19848323001E0F94 /* VictorClassRosterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B7094F319848322001E0F94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Victor  Adu";
+				TargetAttributes = {
+					5B7094FA19848322001E0F94 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					5B70950C19848323001E0F94 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 5B7094FA19848322001E0F94;
+					};
+				};
+			};
+			buildConfigurationList = 5B7094F619848322001E0F94 /* Build configuration list for PBXProject "VictorClassRoster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B7094F219848322001E0F94;
+			productRefGroup = 5B7094FC19848322001E0F94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B7094FA19848322001E0F94 /* VictorClassRoster */,
+				5B70950C19848323001E0F94 /* VictorClassRosterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B7094F919848322001E0F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4B76301985548A008BDB69 /* dan.png in Resources */,
+				5B709524198497B2001E0F94 /* peopleInClass.plist in Resources */,
+				5B4B76371985548A008BDB69 /* victor.png in Resources */,
+				5B4B76321985548A008BDB69 /* john.png in Resources */,
+				5B4B76361985548A008BDB69 /* placeholder.png in Resources */,
+				5B4B76341985548A008BDB69 /* leo.png in Resources */,
+				5B4B76331985548A008BDB69 /* kirby.png in Resources */,
+				5B4B76351985548A008BDB69 /* mike.png in Resources */,
+				5B4B762E1985548A008BDB69 /* brad.png in Resources */,
+				5B4B762F1985548A008BDB69 /* collin.png in Resources */,
+				5B4B762D1985548A008BDB69 /* alex.png in Resources */,
+				5B70950619848322001E0F94 /* Main.storyboard in Resources */,
+				5B4B76311985548A008BDB69 /* jeff.png in Resources */,
+				5B70950819848322001E0F94 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B70950B19848323001E0F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B7094F719848322001E0F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3D0C1219860337007189D6 /* CustomPersonCell.swift in Sources */,
+				5B709521198487A2001E0F94 /* Person.swift in Sources */,
+				5B70950319848322001E0F94 /* PeopleViewController.swift in Sources */,
+				5B70950119848322001E0F94 /* AppDelegate.swift in Sources */,
+				5B4B763B19857CEF008BDB69 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B70950919848323001E0F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4B763C19857CEF008BDB69 /* DetailViewController.swift in Sources */,
+				5B709522198487A2001E0F94 /* Person.swift in Sources */,
+				5B70951419848323001E0F94 /* VictorClassRosterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B70950F19848323001E0F94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B7094FA19848322001E0F94 /* VictorClassRoster */;
+			targetProxy = 5B70950E19848323001E0F94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B70950419848322001E0F94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B70950519848322001E0F94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B70951519848323001E0F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B70951619848323001E0F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B70951819848323001E0F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = VictorClassRoster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B70951919848323001E0F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = VictorClassRoster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B70951B19848323001E0F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VictorClassRoster.app/VictorClassRoster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VictorClassRosterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		5B70951C19848323001E0F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VictorClassRoster.app/VictorClassRoster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VictorClassRosterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B7094F619848322001E0F94 /* Build configuration list for PBXProject "VictorClassRoster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B70951519848323001E0F94 /* Debug */,
+				5B70951619848323001E0F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B70951719848323001E0F94 /* Build configuration list for PBXNativeTarget "VictorClassRoster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B70951819848323001E0F94 /* Debug */,
+				5B70951919848323001E0F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B70951A19848323001E0F94 /* Build configuration list for PBXNativeTarget "VictorClassRosterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B70951B19848323001E0F94 /* Debug */,
+				5B70951C19848323001E0F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B7094F319848322001E0F94 /* Project object */;
+}
